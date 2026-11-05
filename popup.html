@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<title>Ignore Facebook Follow</title>
+<link rel="stylesheet" href="popup.css">
+<body>
+  <h1>Ignore Facebook Follow</h1>
+
+  <label class="row">
+    <span>
+      <b>Hide Follow</b>
+      <small>Ẩn post gợi ý có nút Follow</small>
+    </span>
+    <input type="checkbox" id="hideFollow">
+  </label>
+
+  <label class="row">
+    <span>
+      <b>Hide Join</b>
+      <small>Ẩn post gợi ý group có nút Join</small>
+    </span>
+    <input type="checkbox" id="hideJoin">
+  </label>
+
+  <label class="row">
+    <span>
+      <b>Hide Ads</b>
+      <small>Ẩn post Sponsored / Ad</small>
+    </span>
+    <input type="checkbox" id="hideAds">
+  </label>
+
+  <label class="row">
+    <span>
+      <b>Nút Copy HTML (debug)</b>
+      <small>Copy HTML các post đang hiện trên màn hình. Phím tắt Alt+Shift+C</small>
+    </span>
+    <input type="checkbox" id="showCopyHtml">
+  </label>
+
+  <label class="row">
+    <span>
+      <b>Log debug ra Console</b>
+      <small>F12 &gt; Console, lọc theo "[IFF]"</small>
+    </span>
+    <input type="checkbox" id="debugLog">
+  </label>
+
+  <p class="hint">Thay đổi có hiệu lực ngay, không cần tải lại trang.</p>
+
+  <script src="popup.js"></script>
+</body>
