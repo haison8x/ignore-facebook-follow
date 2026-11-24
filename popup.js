@@ -3,7 +3,8 @@ const DEFAULTS = {
     hideJoin: true,
     hideAds: true,
     showCopyHtml: false,
-    debugLog: false
+    debugLog: false,
+    geminiQuickDelete: true
 };
 
 const inputs = Object.keys(DEFAULTS).map(key => document.getElementById(key));

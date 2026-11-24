@@ -9,6 +9,10 @@
     {
       "matches": ["https://www.facebook.com/*"],
       "js": ["index.js"]
+    },
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["gemini.js"]
     }
   ],
   "action": {
